@@ -42,7 +42,7 @@ Módulo completado como parte de la ruta DevOps.
 
 \## 3. Evidencia práctica
 
-\* \*\*Repositorio del ejercicio guiado:\*\* \[https://github.com/Fawui/skills-introduction-to-git]
+\* \*\*Repositorio del ejercicio guiado:\*\* \ https://github.com/Fawui/skills-introduction-to-git
 
 \* \*\*Lo que más me sirvió :\*\* Es la primera vez que utilice GitHub actions y fue gratificante como iba validando los cambios que iba realizando
 
