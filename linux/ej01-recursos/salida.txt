@@ -1,0 +1,10 @@
+===== Reporte de recursos: 2026-11-21 21:08:29 =====
+Disco /: 1% usado
+Memoria: 502 MB usados de 5860 MB (5358 MB disponibles)
+Top 5 procesos por CPU:
+    PID USER     %CPU %MEM COMMAND
+      1 root      0.1  0.2 systemd
+    176 root      0.0  0.4 networkd-dispat
+     89 root      0.0  0.2 systemd-udevd
+    234 root      0.0  0.5 unattended-upgr
+     50 root      0.0  0.3 systemd-journal
