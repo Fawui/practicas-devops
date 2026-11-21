@@ -1,0 +1,50 @@
+===== Reporte de recursos: 2026-11-21 21:59:01 =====
+Disco /: 1% usado
+Memoria: 534 MB usados de 5860 MB (5326 MB disponibles)
+Top 5 procesos por CPU:
+    PID USER     %CPU %MEM COMMAND
+      1 root      0.0  0.2 systemd
+    310 root      0.0  0.0 Relay(312)
+    176 root      0.0  0.4 networkd-dispat
+     89 root      0.0  0.2 systemd-udevd
+     50 root      0.0  0.3 systemd-journal
+===== Reporte de recursos: 2026-11-21 22:00:01 =====
+Disco /: 1% usado
+Memoria: 538 MB usados de 5860 MB (5322 MB disponibles)
+Top 5 procesos por CPU:
+    PID USER     %CPU %MEM COMMAND
+      1 root      0.0  0.2 systemd
+    310 root      0.0  0.0 Relay(312)
+    176 root      0.0  0.4 networkd-dispat
+     89 root      0.0  0.2 systemd-udevd
+     50 root      0.0  0.3 systemd-journal
+===== Reporte de recursos: 2026-11-21 22:01:01 =====
+Disco /: 1% usado
+Memoria: 544 MB usados de 5860 MB (5316 MB disponibles)
+Top 5 procesos por CPU:
+    PID USER     %CPU %MEM COMMAND
+   1802 root      0.3  0.2 wsl-pro-service
+      1 root      0.0  0.2 systemd
+   1786 fawy      0.0  0.1 tail
+    310 root      0.0  0.0 Relay(312)
+     89 root      0.0  0.2 systemd-udevd
+===== Reporte de recursos: 2026-11-21 22:02:01 =====
+Disco /: 1% usado
+Memoria: 540 MB usados de 5860 MB (5320 MB disponibles)
+Top 5 procesos por CPU:
+    PID USER     %CPU %MEM COMMAND
+   1802 root      0.0  0.2 wsl-pro-service
+      1 root      0.0  0.2 systemd
+    310 root      0.0  0.0 Relay(312)
+     89 root      0.0  0.2 systemd-udevd
+    176 root      0.0  0.4 networkd-dispat
+===== Reporte de recursos: 2026-11-21 22:03:01 =====
+Disco /: 1% usado
+Memoria: 537 MB usados de 5860 MB (5323 MB disponibles)
+Top 5 procesos por CPU:
+    PID USER     %CPU %MEM COMMAND
+   1802 root      0.0  0.2 wsl-pro-service
+      1 root      0.0  0.2 systemd
+    310 root      0.0  0.0 Relay(312)
+     89 root      0.0  0.2 systemd-udevd
+     50 root      0.0  0.3 systemd-journal

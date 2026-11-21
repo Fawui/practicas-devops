@@ -1,0 +1,24 @@
+== 1. Lanzar en segundo plano
+PID del trabajador: 1884 | PID de este script: 1881
+   1884    1881 S+         00:03 bash ./trabajador.sh
+== 2. SIGSTOP (pausar)
+   1884    1881 T+         00:04 bash ./trabajador.sh
+== 3. SIGCONT (reanudar)
+   1884    1881 S+         00:05 bash ./trabajador.sh
+== 4. SIGHUP
+== 5. SIGTERM (cierre limpio)
+Codigo de salida: 0
+  (proceso terminado)
+== 6. SIGKILL (cierre forzado)
+Codigo de salida: 137
+== Log del trabajador
+22:02:37 [PID 1884] iniciado
+22:02:37 [PID 1884] trabajando...
+22:02:39 [PID 1884] trabajando...
+22:02:41 [PID 1884] trabajando...
+22:02:42 [PID 1884] SIGHUP recibido: recargando configuracion
+22:02:42 [PID 1884] trabajando...
+22:02:43 [PID 1884] SIGTERM recibido: cierre limpio
+22:02:43 [PID 1906] iniciado
+22:02:43 [PID 1906] trabajando...
+22:02:45 [PID 1906] trabajando...
