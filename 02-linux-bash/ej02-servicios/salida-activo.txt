@@ -1,0 +1,13 @@
+===== Chequeo de nginx: 2026-11-21 21:25:55 =====
+Estado: ACTIVO
+Arranca con el sistema: enabled
+PID principal: 1167
+Puerto 80: ESCUCHANDO
+Respuesta HTTP: 200
+Últimas 5 líneas del log:
+Nov 21 21:23:04 Fawui systemd[1]: Stopping nginx.service - A high performance web server and a reverse proxy server...
+Nov 21 21:23:04 Fawui systemd[1]: nginx.service: Deactivated successfully.
+Nov 21 21:23:04 Fawui systemd[1]: Stopped nginx.service - A high performance web server and a reverse proxy server.
+Nov 21 21:23:04 Fawui systemd[1]: Starting nginx.service - A high performance web server and a reverse proxy server...
+Nov 21 21:23:04 Fawui systemd[1]: Started nginx.service - A high performance web server and a reverse proxy server.
+Problemas encontrados: 0
