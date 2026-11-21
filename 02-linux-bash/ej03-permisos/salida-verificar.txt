@@ -1,0 +1,13 @@
+eli    leer app.conf          OK
+eli    modificar app.conf     DENEGADO
+eli    ejecutar deploy.sh     OK
+eli    crear archivo          OK
+iri    leer app.conf          DENEGADO
+iri    modificar app.conf     DENEGADO
+iri    ejecutar deploy.sh     DENEGADO
+iri    crear archivo          DENEGADO
+
+total 8
+-rw-r----- 1 root devops 12 Nov 21 21:41 app.conf
+-rwxr-x--- 1 root devops 50 Nov 21 21:41 deploy.sh
+-rw-r--r-- 1 eli  devops  0 Nov 21 21:41 prueba-eli.txt

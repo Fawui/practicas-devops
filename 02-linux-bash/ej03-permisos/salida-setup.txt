@@ -1,0 +1,5 @@
+total 16
+drwxrws--- 2 root devops 4096 Nov 21 21:41 .
+drwxr-xr-x 3 root root   4096 Nov 21 21:41 ..
+-rw-r----- 1 root devops   12 Nov 21 21:41 app.conf
+-rwxr-x--- 1 root devops   50 Nov 21 21:41 deploy.sh
