@@ -1,0 +1,44 @@
+===== Analisis de app.log =====
+Total de lineas: 500
+
+== Lineas por nivel (awk)
+  ERROR  46
+  INFO   394
+  WARN   60
+
+== Errores (grep)
+Cantidad: 46
+Ultimos 3:
+  2026-11-22 17:14:36 ERROR [auth] GET /pagos 500 167ms user=ana
+  2026-11-22 17:20:18 ERROR [auth] GET /login 500 89ms user=iri
+  2026-11-22 17:23:10 ERROR [auth] GET /pedidos 500 303ms user=iri
+
+== Errores por hora
+  08:00  4 errores
+  09:00  3 errores
+  10:00  3 errores
+  11:00  4 errores
+  12:00  1 errores
+  13:00  11 errores
+  14:00  7 errores
+  15:00  6 errores
+  16:00  3 errores
+  17:00  4 errores
+
+== Rutas con mas errores 500
+  /login       12
+  /usuarios    10
+  /pedidos     10
+
+== Tiempo promedio por servicio (awk)
+  [api]     260.6 ms
+  [auth]    253.4 ms
+  [db]      317.1 ms
+
+== Requests lentas (> 1000 ms)
+Cantidad: 32
+
+== Anonimizar usuarios (sed)
+Generado app-anonimizado.log. Ejemplo:
+  2026-11-22 08:05:17 INFO [auth] GET /pedidos 200 283ms user=***
+  2026-11-22 08:05:37 INFO [api] GET /pedidos 200 244ms user=***
