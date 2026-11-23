@@ -1,0 +1,32 @@
+===== Diagnostico de red: 2026-11-23 18:15:39 =====
+
+== 1. Mi IP
+172.27.129.17 
+
+== 2. Puerta de enlace (router)
+default via 172.27.128.1 dev eth0 proto kernel onlink 
+
+== 3. Servidores DNS
+nameserver 10.255.255.254
+
+== 4. DNS: nombre -> IP
+  google.com -> 142.251.129.110
+  github.com -> 4.228.31.150
+  sitio-que-no-existe.xyz -> NO RESUELVE
+
+== 5. Ping a 8.8.8.8
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 4.913/4.988/5.042/0.054 ms
+
+== 6. Puertos abiertos en esta maquina
+State  Recv-Q Send-Q  Local Address:Port Peer Address:Port
+LISTEN 0      4096       127.0.0.54:53        0.0.0.0:*   
+LISTEN 0      4096    127.0.0.53%lo:53        0.0.0.0:*   
+LISTEN 0      511           0.0.0.0:80        0.0.0.0:*   
+LISTEN 0      1000   10.255.255.254:53        0.0.0.0:*   
+LISTEN 0      511              [::]:80           [::]:*   
+
+== 7. Respuesta HTTP
+  google.com -> HTTP 301 en 0.077162s
+  github.com -> HTTP 200 en 0.319991s
+  sitio-que-no-existe.xyz -> HTTP 000 en 0.003363s
