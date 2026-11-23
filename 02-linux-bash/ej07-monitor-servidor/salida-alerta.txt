@@ -1,0 +1,30 @@
+[2026-11-23 19:28:53] ===== Recursos =====
+[2026-11-23 19:28:53] Disco /: 1% usado
+[2026-11-23 19:28:53] Memoria: 526 MB usados de 5860 MB (5334 MB disponibles)
+[2026-11-23 19:28:53] Top 5 procesos por CPU:
+    PID USER     %CPU %MEM COMMAND
+   2225 fawy     22.2  0.1 tee
+   2228 monitor  12.5  0.0 bash
+      1 root      0.0  0.2 systemd
+   1838 root      0.0  0.3 packagekitd
+     89 root      0.0  0.2 systemd-udevd
+[2026-11-23 19:28:53] ===== Servicio =====
+[2026-11-23 19:28:53] ALERTA: el servicio nginx no esta corriendo
+[2026-11-23 19:28:53] ===== Endpoint =====
+[2026-11-23 19:28:53] GET http://127.0.0.1 -> HTTP 000 en 0.000302s
+[2026-11-23 19:28:53] ALERTA: http://127.0.0.1 respondio 000
+[2026-11-23 19:28:53] ===== Access log =====
+[2026-11-23 19:28:53] Requests totales: 101
+[2026-11-23 19:28:53] Top 5 IPs:
+    127.0.0.5       28 requests
+    127.0.0.2       24 requests
+    127.0.0.4       19 requests
+    127.0.0.3       17 requests
+    127.0.0.1       13 requests
+[2026-11-23 19:28:53] Errores 4xx: 64 | Errores 5xx: 0
+[2026-11-23 19:28:53] Top 3 rutas con error 4xx:
+    /admin               17 veces
+    /no-existe           13 veces
+    /api/usuarios        13 veces
+[2026-11-23 19:28:53] ===== Resumen =====
+[2026-11-23 19:28:53] Chequeo terminado con 2 alerta(s)

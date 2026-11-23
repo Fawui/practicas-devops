@@ -1,0 +1,29 @@
+[2026-11-23 19:27:27] ===== Recursos =====
+[2026-11-23 19:27:27] Disco /: 1% usado
+[2026-11-23 19:27:27] Memoria: 558 MB usados de 5860 MB (5302 MB disponibles)
+[2026-11-23 19:27:27] Top 5 procesos por CPU:
+    PID USER     %CPU %MEM COMMAND
+   1838 root      0.0  0.3 packagekitd
+      1 root      0.0  0.2 systemd
+     89 root      0.0  0.2 systemd-udevd
+     50 root      0.0  0.3 systemd-journal
+    176 root      0.0  0.4 networkd-dispat
+[2026-11-23 19:27:27] ===== Servicio =====
+[2026-11-23 19:27:27] Servicio nginx: ACTIVO
+[2026-11-23 19:27:27] ===== Endpoint =====
+[2026-11-23 19:27:27] GET http://127.0.0.1 -> HTTP 200 en 0.000842s
+[2026-11-23 19:27:27] ===== Access log =====
+[2026-11-23 19:27:27] Requests totales: 101
+[2026-11-23 19:27:27] Top 5 IPs:
+    127.0.0.5       28 requests
+    127.0.0.2       24 requests
+    127.0.0.4       19 requests
+    127.0.0.3       17 requests
+    127.0.0.1       13 requests
+[2026-11-23 19:27:27] Errores 4xx: 64 | Errores 5xx: 0
+[2026-11-23 19:27:27] Top 3 rutas con error 4xx:
+    /admin               17 veces
+    /no-existe           13 veces
+    /api/usuarios        13 veces
+[2026-11-23 19:27:27] ===== Resumen =====
+[2026-11-23 19:27:27] Chequeo OK, sin alertas
