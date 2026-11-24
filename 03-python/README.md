@@ -38,17 +38,17 @@ El script tiene que imprimir:
 ## Parte B: lo que le faltó al curso
 
 ### 02_condicionales.py: Semáforo de uso de disco
-Pedí al usuario un porcentaje de uso de disco con `input()` y convertilo con `int()`.
+Pedí al usuario un porcentaje de uso de disco:
 - Menor a 70 → `OK`
 - Entre 70 y 89 → `WARNING`
 - 90 o más → `CRITICAL`
-- Si escribe algo que no es número o un valor fuera de 0-100 → mensaje de error (usá `.isdigit()`)
+- Si escribe algo que no es número o un valor fuera de 0-100 → mensaje de error 
 
 ### 03_bucles.py: Revisar una lista de servicios
 ```python
 servicios = {"nginx": "running", "postgres": "stopped", "redis": "running", "api": "stopped"}
 ```
-1. Recorré el diccionario con `for` e imprimí cada servicio con su estado
+1. Recorré el diccionario e imprimí cada servicio con su estado
 2. Contá cuántos están caídos (`stopped`) y mostralo al final
 3. Con un `while`, simulá 3 reintentos de reinicio de `postgres`: `Intento 1/3...` y en el tercero `postgres levantado`
 
