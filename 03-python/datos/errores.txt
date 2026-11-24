@@ -1,0 +1,5 @@
+2026-11-24 08:03:45 ERROR payments Timeout conectando a la base de datos
+2026-11-24 08:06:01 ERROR payments Transaccion rechazada id=48213
+2026-11-24 08:08:50 ERROR api Excepcion no controlada en /transfer
+2026-11-24 08:11:40 ERROR payments Saldo insuficiente id=48219
+2026-11-24 08:14:55 ERROR auth Token expirado usuario=mgomez
