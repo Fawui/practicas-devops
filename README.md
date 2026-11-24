@@ -6,7 +6,7 @@ Repositorio de prácticas, laboratorios, scripts y archivos de configuración de
 
 * \[x] **01 - Git \& Control de Versiones:** Flujos de trabajo, ramas, merge y resolución de conflictos.
 * \[x] **02 - Linux & Bash Scripting (Bash ✅ · Linux ✅ ):** Administración básica de sistemas, permisos, redes y automatización con scripts .sh.
-* \[ ] **03 - Python para Automatización:** Manejo de archivos, logs y consumo de APIs.
+* \[x] **03 - Python para Automatización:** Manejo de archivos, logs y consumo de APIs.
 * \[ ] **04 - Microsoft Azure Fundamentals (AZ-900):** Conceptos core de nube, redes, almacenamiento y seguridad.
 * \[ ] **05 - CI/CD con Azure DevOps:** Pipelines declarativos en YAML, integración y despliegue continuo.
 * \[ ] **06 - Docker:** Creación de Dockerfile, imágenes optimizadas, redes y docker-compose.
